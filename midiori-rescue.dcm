@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ICE40HX1K-VQ100-ICE40HX1K-VQ100-midiori-rescue-midiori-rescue
+F Lattice Semiconductor
+$ENDCMP
+#
+$CMP SN74LVC8T245DWR-SN74LVC8T245DWR-midiori-rescue-midiori-rescue
+F SOIC-24 Texas Instruments
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "pizero")(type "KiCad")(uri "${KIPRJMOD}/pizero")(options "")(descr ""))
+  (lib (name "llama")(type "KiCad")(uri "${KIPRJMOD}/llama_shared.pretty")(options "")(descr ""))
+  (lib (name "mt32pi")(type "KiCad")(uri "${KIPRJMOD}/mt32pi.pretty")(options "")(descr "")(disabled))
+  (lib (name "mt32pi-logo")(type "KiCad")(uri "${KIPRJMOD}/mt32pi-logo.pretty")(options "")(descr ""))
+  (lib (name "SS-10-23NPE")(type "KiCad")(uri "${KIPRJMOD}/SS-10-23NPE")(options "")(descr ""))
+  (lib (name "midiori")(type "KiCad")(uri "${KIPRJMOD}/midiori.pretty")(options "")(descr ""))
+)
