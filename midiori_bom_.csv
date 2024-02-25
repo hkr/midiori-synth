@@ -1,0 +1,45 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Field4,Field5,Field6,Field7,Field8
+1,Unpolarized capacitor,C,C3 C4 C5 C6 C7 C9 C10 C11 C12 C13 C14 C15 C16 C17 C18 C19 C20 C21 C22 C23 C28 C30,0.1uF,C_0805_2012Metric,22,~,,,,,
+2,Unpolarized capacitor,C,C8,0.1uF,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,,,,,
+3,Unpolarized capacitor,C,C1 C2,4.7uF,C_0805_2012Metric,2,~,,,,,
+4,Unpolarized capacitor,C,C29,220uF,CP_Radial_D8.0mm_P3.50mm,1,~,,,,,
+5,Fuse,Fuse,F1,"500mA hold, 1A trip",Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder,1,~,,,,,
+6,"Ferrite bead, small symbol",FerriteBead_Small,FB1 FB2,100kOhms @ 100 MHz,L_0805_2012Metric_Pad1.05x1.20mm_HandSolder,2,~,,,,,
+7,"Audio Jack, 3 Poles (Stereo / TRS)",AudioJack3,J3,AudioJack3,Jack_3.5mm_CUI_SJ1-3535NG_Horizontal,1,~,,,,,
+8,"Audio Jack, 3 Poles (Stereo / TRS)",AudioJack3,J5 J9,AudioJack3,Jack_3.5mm_CUI_SJ1-3535NG_Horizontal,2,~,,,,,
+9,,Conn_ARM_JTAG_SWD_10-Connector-midiori-rescue-midiori-rescue,J2,Conn_ARM_JTAG_SWD_10,PinHeader_2x05_P1.27mm_Vertical_SMD,1,http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf,,,,,
+10,,J_PI_ZERO,J6,J_PI_ZERO,RASPBERRYPIZEROWV13,1,,,,,,
+11,"RJ connector, 6P6C (6 positions 6 connected)",RJ12,J4,RJ12,RJ12_Amphenol_54601-x06_Horizontal,1,~,,,,,
+12,"Generic connector, double row, 02x13, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x13_Odd_Even,J8,Waveblaster Connector,PinHeader_2x13_P2.54mm_Vertical,1,~,,,,,
+13,,x68000_expansion-x68k-midiori-rescue-midiori-rescue,J1,x68000_expansion,x68000_expansion,1,,,,,,
+14,"Solder Jumper, 3-pole, open",SolderJumper_3_Open,JP1,SolderJumper_3_Open,SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm,1,~,,,,,
+15,Resistor,R,R6 R9,220,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,2,~,,,,,
+16,Resistor,R,R3,10K,R_0805_2012Metric,1,~,,,,,
+17,Resistor,R,R4 R5 R7 R8 R10 R11,47k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,6,~,,,,,
+18,Single Pole Single Throw (SPST) switch,SW_SPST,SW2,ROM,SW_Tactile_SPST_Angled_PTS645Vx58-2LFS,1,~,,,,,
+19,,SS-10-23NPE,SW4,SS-10-23NPE,SS1023NPE,1,SS-10-23NPE,,,,,
+20,Single Pole Single Throw (SPST) switch,SW_SPST,SW3,SYNTH,SW_Tactile_SPST_Angled_PTS645Vx58-2LFS,1,~,,,,,
+21,CMOS hex buffer (open drain) with 5V tolerant inputs,74LCX07,U1,74LCX07,SOIC-14_3.9x8.7mm_P1.27mm,1,www.st.com/resource/en/datasheet/74lcx07.pdf,,,,,
+22,"8-Mbit, 2.5V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-8",AT25SF081-SSHD-X,U2,AT25SF081-SSHD-X,SOIC-8_3.9x4.9mm_P1.27mm,1,https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf,,,,,
+23,,ICE40HX1K-VQ100-ICE40HX1K-VQ100-midiori-rescue-midiori-rescue,U10,ICE40HX1K-VQ100,QFP50P1600X1600X120-100N,1,Lattice Semiconductor,Warning,HX Series 1280 LUTs 95 I/O 64 kBit RAM 1.2 V Surface Mount FPGA - VQFP-100,3.77 USD,TQFP-100 Lattice Semiconductor,ICE40HX1K-VQ100
+24,,SN74LVC8T245DWR-SN74LVC8T245DWR-midiori-rescue-midiori-rescue,U4 U5 U6 U7 U8 U9,SN74LVC8T245DWR,SOIC-24W_7.5x15.4mm_P1.27mm,6,SOIC-24 Texas Instruments,Texas Instruments,Good,0.61 USD,SN74LVC8T245DWR,8-Bit Dual-Supply Bus Transceiver with Configurable Voltage Translation and Three-State Outputs 24-SOIC -40 to 85
+25,"300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23-5",TLV73312PDBV,U3,TLV73312PDBV,SOT-23-5,1,http://www.ti.com/lit/ds/symlink/tlv733p.pdf,,,,,
+26,"300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5",TLV73333PDBV,U11,TLV75533PDBV,SOT-23-5,1,http://www.ti.com/lit/ds/symlink/tlv733p.pdf,,,,,
+27,,U_GY-PCM5102,U15,U_GY-PCM5102,U_GY-PCM5102,1,,,,,,
+28,,SG5032CAN-x68k-midiori-rescue-midiori-rescue,X1,16MHz,Oscillator_SMD_SeikoEpson_SG8002CA-4Pin_7.0x5.0mm,1,http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf,,,,,
+
+
+
+
+
+Component Groups:,28
+Component Count:,63
+Fitted Components:,63
+Number of PCBs:,1
+Total components:,63
+Schematic Version:,
+Schematic Date:,
+PCB Variant:,default
+BoM Date:,"Saturday, February 24, 2024 at 03:55:45 PM"
+Schematic Source:,midiori.kicad_sch
+KiCad Version:,Eeschema 7.0.10
