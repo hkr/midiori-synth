@@ -1,3 +1,11 @@
+This project is a fork of the Midiori project and my own modifications follow the same terms.
+
+However I am using some symbols and footprint libraries for which I don't know the license of.
+The "llama_shared" footprint and symbol library is from the project https://github.com/eivindbohler/tinyllama/ and licensed under GPL version 3.
+The MT32-pi logo is from the MT32-pi project, its license terms are listed here:
+https://github.com/dwhinham/mt32-pi?tab=readme-ov-file#%EF%B8%8F-license
+
+License of the original Midiori project below:
 Statement of Purpose
 
 The laws of most jurisdictions throughout the world automatically confer exclusive Copyright and Related Rights (defined below) upon the creator and subsequent owner(s) (each and all, an "owner") of an original work of authorship and/or a database (each, a "Work").
