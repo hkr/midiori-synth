@@ -6,4 +6,6 @@
   (lib (name "mt32pi-logo")(type "KiCad")(uri "${KIPRJMOD}/mt32pi-logo.pretty")(options "")(descr ""))
   (lib (name "SS-10-23NPE")(type "KiCad")(uri "${KIPRJMOD}/SS-10-23NPE")(options "")(descr ""))
   (lib (name "midiori")(type "KiCad")(uri "${KIPRJMOD}/midiori.pretty")(options "")(descr ""))
+  (lib (name "AMP2")(type "KiCad")(uri "${KIPRJMOD}/AMP2.pretty")(options "")(descr ""))
+  (lib (name "rotenc")(type "KiCad")(uri "${KIPRJMOD}/PEC09_2120K_S0012/footprints.pretty")(options "")(descr ""))
 )

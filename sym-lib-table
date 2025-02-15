@@ -3,4 +3,5 @@
   (lib (name "midiori-rescue")(type "Legacy")(uri "${KIPRJMOD}/midiori-rescue.lib")(options "")(descr ""))
   (lib (name "llama")(type "KiCad")(uri "${KIPRJMOD}/llama_shared.kicad_sym")(options "")(descr ""))
   (lib (name "SS-10-23NPE")(type "KiCad")(uri "${KIPRJMOD}/SS-10-23NPE/2024-01-30_02-40-29.kicad_sym")(options "")(descr ""))
+  (lib (name "AMP2")(type "KiCad")(uri "${KIPRJMOD}/AMP2.kicad_sym")(options "")(descr ""))
 )
